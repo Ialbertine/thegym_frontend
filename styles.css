@@ -101,7 +101,8 @@ body {
   color: white;
 }
 .fa-heart{
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  font-size: 1.5rem;
 }
 
 
