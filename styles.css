@@ -1,0 +1,108 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundcolor: #ffffff;
+  --text-color: #000000;
+  --primary-color: green;
+  --secondary-color: #09143C;
+  --border-color: #DEE2E6; 
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-light);
+}
+
+/* Header section styling */
+
+.Fewo_header{
+  background-color: var(--backgroundcolor);
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+.Fewo_navLinks ul{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-weight: 500;
+  
+}
+.Fewo_navLinks ul li a{
+  text-decoration: none;
+  color: var(--text-color);
+  
+}
+.download_botton{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: var(--backgroundcolor);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.fa-solid{
+  color: #305CDE;
+  font-size: 14px;
+}
+
+/* header content */
+.Fewo_headerContent{
+  background: url('https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png?impolicy=fcrop&w=1920&h=580&q=medium');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Fewo_headerContent h1{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.Few_headerform{
+  padding-left: 2rem;
+  padding-right: 1rem;
+  display: flex;
+}
+
+
+.register_section{
+  padding: 1rem 2rem;
+}
+.whole_section{
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1.4rem 1.5rem;
+  color: white;
+}
+.fa-heart{
+  color: var(--secondary-color)
+}
+
+
+
